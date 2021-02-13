@@ -1,11 +1,9 @@
-FROM ubuntu:20.04
+FROM python:3.8
 
-RUN python:3.8
-
-WORKDIR /workspace/python
+WORKDIR /var/python
 
 RUN pip install \
         numpy \
         matplotlib
 
-CMD["/bin/bash"]
+CMD ["/bin/bash"]
