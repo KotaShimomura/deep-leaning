@@ -1,1 +1,1 @@
-# deep-leaning
+# deep-learning
